@@ -35,14 +35,14 @@ const menuItems = [
       { name: '오시는 길', path: '/pages/Company#location' }
     ]
   }
-   ,
+  ,
   {
     title: '무인매장',
     subMenu: [
-        { name: '매장찾기', path: '/pages/Standalone' },
-        { name: '키오스크 가이드', path: '/pages/KioskGuide' },
-        { name: '앱 사용 가이드', path: '/pages/AppDownload' },
-        { name: 'Q&A', path: '/pages/QnA' },  
+      { name: '매장찾기', path: '/pages/Standalone' },
+      { name: '키오스크 가이드', path: '/pages/KioskGuide' },
+      { name: '앱 사용 가이드', path: '/pages/AppDownload' },
+      { name: 'Q&A', path: '/pages/QnA' },
       // { name: '가맹점혜택', path: '' },
       // { name: '창업절차', path: '' },
       // { name: '창업비용', path: '' },
@@ -69,8 +69,28 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [activeMobileMenu, setActiveMobileMenu] = useState(null)
   const [clickedItemIndex, setClickedItemIndex] = useState(null)
-
   const [isMobile, setIsMobile] = useState(false)
+  const [flowerImages, setFlowerImages] = useState(null)
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const paths = [
+        '/Images/header_img/flower_1.png',
+        '/Images/header_img/flower_2.png',
+        '/Images/header_img/flower_3.png'
+      ]
+
+      const loadedImages = paths.map(path => {
+        const img = new window.Image()
+        img.src = path
+        return img
+      })
+
+      // 모든 이미지가 로드될 때까지 기다릴 필요 없이 배열로 설정 가능
+      // react-snowfall은 내부적으로 이미지 로딩을 처리함
+      setFlowerImages(loadedImages)
+    }
+  }, [])
 
   // NOTE: 페이지 이동 시 Header 가 리마운트되면 세션을 다시 조회하는 동안
   // 기존 구현은 `null`(비로그인)로 먼저 렌더되어 "로그인" 버튼이 잠깐 보이는 깜빡임이 발생할 수 있음.
@@ -225,12 +245,12 @@ const Header = () => {
   const handleMobileItemClick = (e, path, subIdx) => {
     e.preventDefault();
     setClickedItemIndex(subIdx);
-    
+
     setTimeout(() => {
       if (path) {
         if (path.includes('#')) {
           const [pagePath, sectionId] = path.split('#');
-          
+
           if (window.location.pathname === pagePath) {
             const element = document.getElementById(sectionId);
             if (element) {
@@ -274,14 +294,16 @@ const Header = () => {
   }, [isMobileMenuOpen]);
 
   return (
-  <header className="fixed top-0 z-50 w-full max-w-full bg-[#91000A]"
+    <header className="fixed top-0 z-50 w-full max-w-full bg-[#91000A]"
       onMouseLeave={() => setActiveMenu(null)}
     >
       {/* 헤더 눈 내리는 연출 (react-snowfall) */}
       <Snowfall
-        color="#ffffff"
-        snowflakeCount={isMobile ? 30 : 80}
-        speed={[0.2, 0.7]}
+        snowflakeCount={isMobile ? 5 : 12}
+        speed={[0.25, 1.2]}
+        wind={[-0.5, 2.0]}
+        radius={[15.0, 45.0]}
+        images={flowerImages}
         style={{
           position: 'absolute',
           top: 0,
@@ -295,18 +317,18 @@ const Header = () => {
 
       <div className="relative flex w-full justify-center">
         <div className="w-full max-w-[1920px] h-[54px] md:h-[100px] lg:h-[132px] flex items-center justify-between lg:justify-evenly">
-          <Link 
-            href="/" 
+          <Link
+            href="/"
             className="relative flex items-center"
           >
-            <img 
-              src="/Images/logo.png" 
-              alt="L&apos;AFFAIR LOUNGE" 
+            <img
+              src="/Images/logo.png"
+              alt="L&apos;AFFAIR LOUNGE"
               className="w-[180px] md:w-[250px] xl:w-[338px] h-auto object-contain ml-[30px]"
             />
           </Link>
 
-          <button 
+          <button
             className="lg:hidden mr-[26px]"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
@@ -319,7 +341,7 @@ const Header = () => {
             <nav className="flex items-center ml-[32px]">
               <ul className="flex space-x-[30px] 2xl:space-x-[58px]">
                 {menuItems.map((item, idx) => (
-                  <li 
+                  <li
                     key={idx}
                     className="relative group"
                     onMouseEnter={() => setActiveMenu(idx)}
@@ -331,7 +353,7 @@ const Header = () => {
                     >
                       <span className="h-[21px] tracking-[-0.47px]">{item.title}</span>
                     </Link>
-                    
+
                     <div className={`absolute left-1/2 -translate-x-1/2 mt-7 bg-white shadow-lg rounded-2xl overflow-hidden ${idx === 3 ? 'w-[135px]' : 'w-[116px]'} pt-[26px] pb-[22px]
                       ${activeMenu === idx ? 'opacity-100 visible' : 'opacity-0 invisible'}`}
                       onMouseLeave={() => setActiveMenu(null)}
@@ -339,8 +361,8 @@ const Header = () => {
                       <ul>
                         {item.subMenu.map((subItem, subIdx) => (
                           <li key={subIdx}>
-                            <Link 
-                              href={subItem.path} 
+                            <Link
+                              href={subItem.path}
                               onClick={(e) => handleSmoothScroll(e, subItem.path)}
                               className={
                                 "block px-4  tracking-[-0.36px] text-left pl-[18px]" +
@@ -440,23 +462,23 @@ const Header = () => {
             <nav className="absolute left-[calc(29/360*100vw)] w-full top-[93px] flex flex-col align-top gap-[18px]">
               {menuItems.map((item, idx) => (
                 <div key={idx} className="mb-[0px]">
-                  <button 
+                  <button
                     className={`w-fit mb-[0px] text-[24px] tracking-[-2.4px] text-left flex justify-start items-center transition-colors
                       ${activeMobileMenu === idx ? 'text-[#ffa1a7]' : 'text-white'}`}
                     onClick={() => toggleMobileSubmenu(idx)}
                     onMouseEnter={() => setActiveMobileMenu(idx)}
                   >
                     <span>{item.title}</span>
-                    <ChevronDownIcon 
-                      className={`w-5 h-5 ml-[12px] transition-transform ${activeMobileMenu === idx ? 'rotate-180' : ''}`} 
+                    <ChevronDownIcon
+                      className={`w-5 h-5 ml-[12px] transition-transform ${activeMobileMenu === idx ? 'rotate-180' : ''}`}
                     />
                   </button>
                   <div className={`overflow-hidden transition-all duration-300 ${activeMobileMenu === idx ? 'max-h-96' : 'max-h-0'}`}>
                     <ul className="py-2">
                       {item.subMenu.map((subItem, subIdx) => (
                         <li key={subIdx} className="">
-                          <Link 
-                            href={subItem.path} 
+                          <Link
+                            href={subItem.path}
                             onClick={(e) => handleMobileItemClick(e, subItem.path, subIdx)}
                             className={`block w-fit py-[3px] text-[#ffa1a7] hover:text-[#ffffff] transition-colors duration-300
                               ${clickedItemIndex === subIdx ? 'text-[#ffffff]' : ''}`}
@@ -527,7 +549,7 @@ const Header = () => {
             >
               <div>
                 <label className="mb-1 block text-xs font-medium text-gray-700">
-                   아이디
+                  아이디
                 </label>
                 <input
                   type="text"
