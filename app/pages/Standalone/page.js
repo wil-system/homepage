@@ -38,7 +38,7 @@ const STORES = {
       { id: 20, src: '/Images/muin/nonhyeon/nonhyeon_20.webp', alt: '논현역점 매장 전경 20' },
     ],
     location: {
-      addressHtml: '서울특별시 강남구 강남대로 492-2<br/>신분당선 논현역 B2-1호',
+      addressHtml: '서울특별시 강남구 학동로 102<br/>논현역 신분당선 B2-1호 LAFFAIR매장',
       hoursHtml: '연중무휴 06:00 - 24:00 운영<br/>완전 무인 자율 쇼핑',
       mapImageSrc: '/Images/muin/nonhyeon/map01_nonhyeon.png',
     },
@@ -75,7 +75,7 @@ const STORES = {
       { id: 20, src: '/Images/muin/sinnonhyeon/sinnonhyeon_20.webp', alt: '신논현역점 매장 전경 20' },
     ],
     location: {
-      addressHtml: '서울특별시 강남구 강남대로 302-2<br/>B3-1호',
+      addressHtml: '서울특별시 강남구 봉은사로 102<br/>신논현역 신분당선 B3-1호 LAFFAIR매장',
       hoursHtml: '연중무휴 06:00 - 24:00 운영<br/>완전 무인 자율 쇼핑',
       mapImageSrc: '/Images/muin/sinnonhyeon/map01_sinnonhyeon.png',
     },

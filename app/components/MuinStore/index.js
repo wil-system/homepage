@@ -5,8 +5,8 @@ import KakaoMap from '../Company/KakaoMap';
 
 const STORE_LOCATIONS = {
   sinsa: { address: '서울 강남구 도산대로 102', label: '신사역점' },
-  sinnonhyeon: { address: '서울특별시 강남구 강남대로 302-2 B3-1호', label: '신논현역점' },
-  nonhyeon: { address: '서울특별시 강남구 강남대로 492-2 신분당선 논현역 B2-1호', label: '논현역점' }
+  sinnonhyeon: { address: '서울특별시 강남구 봉은사로 102, 신논현역 신분당선 B3-1호 LAFFAIR매장', label: '신논현역점' },
+  nonhyeon: { address: '서울특별시 강남구 학동로 102, 논현역 신분당선 B2-1호 LAFFAIR매장', label: '논현역점' }
 };
 
 const MuinStore = () => {

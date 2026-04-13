@@ -152,14 +152,14 @@
   "hotPaths": [
     {
       "path": "app\\pages\\Standalone\\page.js",
-      "accessCount": 3,
-      "lastAccessed": 1776058666709,
+      "accessCount": 5,
+      "lastAccessed": 1776071103773,
       "type": "file"
     },
     {
       "path": "app\\components\\MuinStore\\index.js",
-      "accessCount": 2,
-      "lastAccessed": 1776058555456,
+      "accessCount": 3,
+      "lastAccessed": 1776071100459,
       "type": "file"
     }
   ],
