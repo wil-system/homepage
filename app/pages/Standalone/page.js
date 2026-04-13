@@ -38,7 +38,7 @@ const STORES = {
       { id: 20, src: '/Images/muin/nonhyeon/nonhyeon_20.webp', alt: '논현역점 매장 전경 20' },
     ],
     location: {
-      addressHtml: '서울특별시 강남구 강남대로 492-2<br/>신분당선 논현역',
+      addressHtml: '서울특별시 강남구 강남대로 492-2<br/>신분당선 논현역 B2-1호',
       hoursHtml: '연중무휴 06:00 - 24:00 운영<br/>완전 무인 자율 쇼핑',
       mapImageSrc: '/Images/muin/nonhyeon/map01_nonhyeon.png',
     },
@@ -75,7 +75,7 @@ const STORES = {
       { id: 20, src: '/Images/muin/sinnonhyeon/sinnonhyeon_20.webp', alt: '신논현역점 매장 전경 20' },
     ],
     location: {
-      addressHtml: '서울특별시 강남구 강남대로 302-2<br/>신분당선 신논현역',
+      addressHtml: '서울특별시 강남구 강남대로 302-2<br/>B3-1호',
       hoursHtml: '연중무휴 06:00 - 24:00 운영<br/>완전 무인 자율 쇼핑',
       mapImageSrc: '/Images/muin/sinnonhyeon/map01_sinnonhyeon.png',
     },

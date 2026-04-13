@@ -1,0 +1,167 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1776058293852,
+  "projectRoot": "C:\\Users\\Lim\\Desktop\\HomePage\\wil-project\\wilproject",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "15.0.7",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "18.2.0",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "18.2.0",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "app",
+      "public"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "app": {
+      "path": "app",
+      "purpose": "Application code",
+      "fileCount": 3,
+      "lastAccessed": 1776058293821,
+      "keyFiles": [
+        "globals.css",
+        "layout.js",
+        "page.js"
+      ]
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 11,
+      "lastAccessed": 1776058293822,
+      "keyFiles": [
+        "AgentAESCipher.java",
+        "file.svg",
+        "globe.svg",
+        "naver081d6a21e7dec2d9c9b7c317056a49cb.html",
+        "naverc771efe93ed91f215763d7f942ffc77b.html"
+      ]
+    },
+    "styles": {
+      "path": "styles",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1776058293831,
+      "keyFiles": []
+    },
+    "app\\api": {
+      "path": "app\\api",
+      "purpose": "API routes",
+      "fileCount": 0,
+      "lastAccessed": 1776058293832,
+      "keyFiles": []
+    },
+    "app\\components": {
+      "path": "app\\components",
+      "purpose": "UI components",
+      "fileCount": 3,
+      "lastAccessed": 1776058293833,
+      "keyFiles": [
+        "Footer copy.js",
+        "Footer.js",
+        "Header.js"
+      ]
+    },
+    "app\\data": {
+      "path": "app\\data",
+      "purpose": "Data files",
+      "fileCount": 3,
+      "lastAccessed": 1776058293833,
+      "keyFiles": [
+        "news.js",
+        "products.js",
+        "slides.js"
+      ]
+    },
+    "app\\lib": {
+      "path": "app\\lib",
+      "purpose": "Library code",
+      "fileCount": 3,
+      "lastAccessed": 1776058293834,
+      "keyFiles": [
+        "auth.ts",
+        "supabaseBrowserClient.ts",
+        "supabaseClient.ts"
+      ]
+    },
+    "app\\pages": {
+      "path": "app\\pages",
+      "purpose": "Page components",
+      "fileCount": 0,
+      "lastAccessed": 1776058293834,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "app\\pages\\Standalone\\page.js",
+      "accessCount": 3,
+      "lastAccessed": 1776058666709,
+      "type": "file"
+    },
+    {
+      "path": "app\\components\\MuinStore\\index.js",
+      "accessCount": 2,
+      "lastAccessed": 1776058555456,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
