@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow:
 
-Sitemap: https://www.laffairlounge.co.kr/sitemap.xml
+Sitemap: https://www.laffairlounge.kr/sitemap.xml

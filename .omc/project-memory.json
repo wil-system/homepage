@@ -151,27 +151,27 @@
   },
   "hotPaths": [
     {
-      "path": "app\\layout.js",
-      "accessCount": 3,
-      "lastAccessed": 1776409551574,
+      "path": "public\\robots.txt",
+      "accessCount": 4,
+      "lastAccessed": 1776409843559,
       "type": "file"
     },
     {
-      "path": "public\\robots.txt",
-      "accessCount": 3,
-      "lastAccessed": 1776409557166,
+      "path": "app\\layout.js",
+      "accessCount": 4,
+      "lastAccessed": 1776409845560,
       "type": "file"
     },
     {
       "path": "public\\sitemap.xml",
-      "accessCount": 2,
-      "lastAccessed": 1776409543753,
+      "accessCount": 3,
+      "lastAccessed": 1776409844394,
       "type": "file"
     },
     {
       "path": "app\\page.js",
-      "accessCount": 2,
-      "lastAccessed": 1776409554205,
+      "accessCount": 3,
+      "lastAccessed": 1776409846008,
       "type": "file"
     },
     {
