@@ -1,0 +1,7 @@
+{
+  "tool_name": "Read",
+  "tool_input_preview": "{\"file_path\":\"C:\\\\Users\\\\Lim\\\\Desktop\\\\HomePage\\\\wil-project\\\\wilproject\\\\app\\\\components\\\\Company\\\\index.js\"}",
+  "error": "File content (38843 tokens) exceeds maximum allowed tokens (25000). Use offset and limit parameters to read specific portions of the file, or search for specific content instead of reading the whole file.",
+  "timestamp": "2026-04-17T07:51:42.774Z",
+  "retry_count": 1
+}

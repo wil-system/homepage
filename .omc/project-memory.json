@@ -175,6 +175,18 @@
       "type": "file"
     },
     {
+      "path": "app\\components\\Company\\index.js",
+      "accessCount": 3,
+      "lastAccessed": 1776412323435,
+      "type": "directory"
+    },
+    {
+      "path": "app\\components\\CompanyHistory\\detailedHistory.js",
+      "accessCount": 2,
+      "lastAccessed": 1776412158643,
+      "type": "file"
+    },
+    {
       "path": "",
       "accessCount": 1,
       "lastAccessed": 1776409471390,
@@ -185,6 +197,18 @@
       "accessCount": 1,
       "lastAccessed": 1776409557794,
       "type": "directory"
+    },
+    {
+      "path": "app\\components\\CompanyHistory\\index.js",
+      "accessCount": 1,
+      "lastAccessed": 1776412145223,
+      "type": "file"
+    },
+    {
+      "path": "app\\pages\\Company\\page.js",
+      "accessCount": 1,
+      "lastAccessed": 1776412301981,
+      "type": "file"
     }
   ],
   "userDirectives": []

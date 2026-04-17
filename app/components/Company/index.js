@@ -1144,9 +1144,12 @@ const Company = () => {
                       {/* ... 기존 히스토리 아이템 컨텐츠 ... */}
                       <div className="history-item relative w-auto h-auto sm:pb-[60px] md:pb-[80px] xl:pb-[100px] max-sm:flex max-sm:flex-row max-sm:items-start max-sm:justify-start max-sm:gap-[25px]">
                         <p className="relative text-[47px] md:text-[82px] xl:text-[102px] font-poppins font-semibold flex items-start sm:items-end leading-none max-sm:w-[120px] h-[60px] md:h-[86px] xl:h-[107px] text-[#979797]">
-                          2024
+                          2026
                         </p>
                         <div className="w-fit max-sm:w-[calc(130px+15vw)] h-auto sm:mt-[20px] md:mt-[50px] xl:mt-[60px] max-sm:flex max-sm:flex-col max-sm:items-start max-sm:justify-start max-sm:gap-[4px]">
+                          <p className="text-[12px] md:text-[18px] xl:text-[22px] font-normal text-left tracking-[-0.25px] md:tracking-[-0.3px] xl:tracking-[-0.35px] text-[#979797]">
+                            HUMPHREYS CAMP 입점
+                          </p>
                           <p className="text-[12px] md:text-[18px] xl:text-[22px] font-normal text-left tracking-[-0.25px] md:tracking-[-0.3px] xl:tracking-[-0.35px] text-[#979797]">
                             라페어 인견팬티 &quot;800만장&quot;돌파
                           </p>
