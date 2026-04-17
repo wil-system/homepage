@@ -151,6 +151,12 @@
   },
   "hotPaths": [
     {
+      "path": "app\\components\\Company\\index.js",
+      "accessCount": 7,
+      "lastAccessed": 1776413175016,
+      "type": "directory"
+    },
+    {
       "path": "public\\robots.txt",
       "accessCount": 4,
       "lastAccessed": 1776409843559,
@@ -173,12 +179,6 @@
       "accessCount": 3,
       "lastAccessed": 1776409846008,
       "type": "file"
-    },
-    {
-      "path": "app\\components\\Company\\index.js",
-      "accessCount": 3,
-      "lastAccessed": 1776412323435,
-      "type": "directory"
     },
     {
       "path": "app\\components\\CompanyHistory\\detailedHistory.js",

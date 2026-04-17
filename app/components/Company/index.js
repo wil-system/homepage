@@ -1148,23 +1148,42 @@ const Company = () => {
                         </p>
                         <div className="w-fit max-sm:w-[calc(130px+15vw)] h-auto sm:mt-[20px] md:mt-[50px] xl:mt-[60px] max-sm:flex max-sm:flex-col max-sm:items-start max-sm:justify-start max-sm:gap-[4px]">
                           <p className="text-[12px] md:text-[18px] xl:text-[22px] font-normal text-left tracking-[-0.25px] md:tracking-[-0.3px] xl:tracking-[-0.35px] text-[#979797]">
-                            HUMPHREYS CAMP 입점
+                            코스트코 오프라인 입점
                           </p>
                           <p className="text-[12px] md:text-[18px] xl:text-[22px] font-normal text-left tracking-[-0.25px] md:tracking-[-0.3px] xl:tracking-[-0.35px] text-[#979797]">
-                            라페어 인견팬티 &quot;800만장&quot;돌파
-                          </p>
-                          <p className="text-[12px] md:text-[18px] xl:text-[22px] font-normal text-left tracking-[-0.25px] md:tracking-[-0.3px] xl:tracking-[-0.35px] text-[#979797]">
-                            코스트코 판매채널 확장
-                          </p>
-                          <p className="text-[12px] md:text-[18px] xl:text-[22px] font-normal text-left tracking-[-0.25px] md:tracking-[-0.3px] xl:tracking-[-0.35px] text-[#979797]">
-                            이마트입점
-                          </p>
-                          <p className="text-[12px] md:text-[18px] xl:text-[22px] font-normal text-left tracking-[-0.25px] md:tracking-[-0.3px] xl:tracking-[-0.35px] text-[#979797]">
-                            몽골 이마트 라페어 언더웨어 제품 수출
+                            평택 미군기지 팝업 행사
                           </p>
                         </div>
                       </div>
-                      
+
+                      <div className="history-item relative w-auto h-auto mt-[25px] sm:mt-[0px] sm:pb-[60px] md:pb-[80px] xl:pb-[100px] max-sm:flex max-sm:flex-row max-sm:items-start max-sm:justify-start max-sm:gap-[25px]">
+                        <p className="relative text-[47px] md:text-[82px] xl:text-[102px] font-poppins font-semibold flex items-start sm:items-end leading-none max-sm:w-[120px] h-[60px] md:h-[86px] xl:h-[107px] text-[#979797]">
+                          2025
+                        </p>
+                        <div className="w-fit max-sm:w-[calc(130px+15vw)] h-auto sm:mt-[20px] md:mt-[50px] xl:mt-[60px] max-sm:flex max-sm:flex-col max-sm:items-start max-sm:justify-start max-sm:gap-[4px]">
+                          <p className="text-[12px] md:text-[18px] xl:text-[22px] font-normal text-left tracking-[-0.25px] md:tracking-[-0.3px] xl:tracking-[-0.35px] text-[#979797]">
+                            라페어 인견팬티 &quot;1000만장&quot; 돌파
+                          </p>
+                          <p className="text-[12px] md:text-[18px] xl:text-[22px] font-normal text-left tracking-[-0.25px] md:tracking-[-0.3px] xl:tracking-[-0.35px] text-[#979797]">
+                            퀸잇 입점
+                          </p>
+                          <p className="text-[12px] md:text-[18px] xl:text-[22px] font-normal text-left tracking-[-0.25px] md:tracking-[-0.3px] xl:tracking-[-0.35px] text-[#979797]">
+                            라페어라운지 (무인매장)
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="history-item relative w-auto h-auto mt-[25px] sm:mt-[0px] sm:pb-[60px] md:pb-[80px] xl:pb-[100px] max-sm:flex max-sm:flex-row max-sm:items-start max-sm:justify-start max-sm:gap-[25px]">
+                        <p className="relative text-[47px] md:text-[82px] xl:text-[102px] font-poppins font-semibold flex items-start sm:items-end leading-none max-sm:w-[120px] h-[60px] md:h-[86px] xl:h-[107px] text-[#979797]">
+                          2024
+                        </p>
+                        <div className="w-fit max-sm:w-[calc(130px+15vw)] h-auto sm:mt-[20px] md:mt-[50px] xl:mt-[60px] max-sm:flex max-sm:flex-col max-sm:items-start max-sm:justify-start max-sm:gap-[4px]">
+                          <p className="text-[12px] md:text-[18px] xl:text-[22px] font-normal text-left tracking-[-0.25px] md:tracking-[-0.3px] xl:tracking-[-0.35px] text-[#979797]">
+                            라페어 카카오 메이커스 입점
+                          </p>
+                        </div>
+                      </div>
+
                       <div className="history-item relative w-auto h-auto mt-[25px] sm:mt-[0px] sm:pb-[60px] md:pb-[80px] xl:pb-[100px] max-sm:flex max-sm:flex-row max-sm:items-start max-sm:justify-start max-sm:gap-[25px]">
                         <p className="relative text-[47px] md:text-[82px] xl:text-[102px] font-poppins font-semibold flex items-start sm:items-end leading-none max-sm:w-[120px] h-[60px] md:h-[86px] xl:h-[107px] text-[#979797]">
                           2023
