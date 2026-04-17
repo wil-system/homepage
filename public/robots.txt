@@ -1,2 +1,5 @@
 User-agent: *
-Allow:/
+Allow: /
+Disallow:
+
+Sitemap: https://www.laffairlounge.co.kr/sitemap.xml

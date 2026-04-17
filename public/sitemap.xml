@@ -5,33 +5,28 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>https://www.laffairlounge.com/</loc>
-  <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  <loc>https://www.laffairlounge.co.kr/</loc>
+  <lastmod>2026-04-17T00:00:00+09:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.laffairlounge.com/pages/branded-products?section=top</loc>
-  <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  <loc>https://www.laffairlounge.co.kr/pages/branded-products</loc>
+  <lastmod>2026-04-17T00:00:00+09:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.laffairlounge.com/pages/branded-products?section=category</loc>
-  <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  <loc>https://www.laffairlounge.co.kr/pages/BrandStory</loc>
+  <lastmod>2026-04-17T00:00:00+09:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.laffairlounge.com/pages/BrandStory</loc>
-  <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  <loc>https://www.laffairlounge.co.kr/pages/SundayLounge</loc>
+  <lastmod>2026-04-17T00:00:00+09:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.laffairlounge.com/pages/SundayLounge</loc>
-  <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  <loc>https://www.laffairlounge.co.kr/pages/Company</loc>
+  <lastmod>2026-04-17T00:00:00+09:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://www.laffairlounge.com/pages/Company</loc>
-  <lastmod>2024-06-24T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-</urlset> 
+</urlset>

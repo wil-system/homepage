@@ -13,7 +13,7 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  metadataBase: new URL('https://www.laffairlounge.com'),
+  metadataBase: new URL('https://www.laffairlounge.co.kr'),
   title: {
     default: "라페어라운지"
   },
@@ -24,7 +24,7 @@ export const metadata = {
   openGraph: {
     title: "라페어라운지",
     description: '프리미엄 언더웨어 브랜드 라페어라운지 공식 쇼핑몰. 전국 무인매장 운영.',
-    url: 'https://www.laffairlounge.com/',
+    url: 'https://www.laffairlounge.co.kr/',
     siteName: "라페어라운지",
     images: [
       {
@@ -71,15 +71,15 @@ export default function RootLayout({ children }) {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="라페어라운지" />
         <meta property="og:description" content="라페어라운지 공식 쇼핑몰. 편안하면서도 스타일리시한 속옷, 파자마, 라운지웨어를 만나보세요." />
-        <meta property="og:image" content="https://www.laffairlounge.com/Images/main_img/main.webp" />
+        <meta property="og:image" content="https://www.laffairlounge.co.kr/Images/main_img/main.webp" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:url" content="https://www.laffairlounge.com/" />
+        <meta property="og:url" content="https://www.laffairlounge.co.kr/" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="라페어라운지" />
         <meta name="twitter:description" content="라페어라운지 공식 쇼핑몰. 편안하면서도 스타일리시한 속옷, 파자마, 라운지웨어를 만나보세요." />
-        <meta name="twitter:image" content="https://www.laffairlounge.com/Images/main_img/main.webp" />
-        <meta name="twitter:domain" content="https://www.laffairlounge.com/" />
+        <meta name="twitter:image" content="https://www.laffairlounge.co.kr/Images/main_img/main.webp" />
+        <meta name="twitter:domain" content="https://www.laffairlounge.co.kr/" />
         <link rel="icon" href="/Images/favicon/Favico_32x32.png" sizes="32x32" type="image/png" />
         <link rel="icon" href="/Images/favicon/Favico_192x192.png" sizes="192x192" type="image/png" />
         <link rel="apple-touch-icon" href="/Images/favicon/Favico_180x180.png" />
@@ -95,10 +95,10 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "라페어라운지",
-              "url": "https://www.laffairlounge.com",
-              "logo": "https://www.laffairlounge.com/Images/logo.png",
+              "url": "https://www.laffairlounge.co.kr",
+              "logo": "https://www.laffairlounge.co.kr/Images/logo.png",
               "image": [
-                "https://www.laffairlounge.com/Images/main_img/main.webp"
+                "https://www.laffairlounge.co.kr/Images/main_img/main.webp"
               ],
               "description": "라페어라운지 공식 쇼핑몰. 편안하면서도 스타일리시한 속옷, 파자마, 라운지웨어를 만나보세요.",
               "sameAs": [

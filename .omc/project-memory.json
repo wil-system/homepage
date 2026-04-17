@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1776058293852,
+  "lastScanned": 1776409405394,
   "projectRoot": "C:\\Users\\Lim\\Desktop\\HomePage\\wil-project\\wilproject",
   "techStack": {
     "languages": [
@@ -74,7 +74,7 @@
       "path": "app",
       "purpose": "Application code",
       "fileCount": 3,
-      "lastAccessed": 1776058293821,
+      "lastAccessed": 1776409405365,
       "keyFiles": [
         "globals.css",
         "layout.js",
@@ -85,7 +85,7 @@
       "path": "public",
       "purpose": "Public files",
       "fileCount": 11,
-      "lastAccessed": 1776058293822,
+      "lastAccessed": 1776409405366,
       "keyFiles": [
         "AgentAESCipher.java",
         "file.svg",
@@ -98,21 +98,21 @@
       "path": "styles",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1776058293831,
+      "lastAccessed": 1776409405375,
       "keyFiles": []
     },
     "app\\api": {
       "path": "app\\api",
       "purpose": "API routes",
       "fileCount": 0,
-      "lastAccessed": 1776058293832,
+      "lastAccessed": 1776409405376,
       "keyFiles": []
     },
     "app\\components": {
       "path": "app\\components",
       "purpose": "UI components",
       "fileCount": 3,
-      "lastAccessed": 1776058293833,
+      "lastAccessed": 1776409405376,
       "keyFiles": [
         "Footer copy.js",
         "Footer.js",
@@ -123,7 +123,7 @@
       "path": "app\\data",
       "purpose": "Data files",
       "fileCount": 3,
-      "lastAccessed": 1776058293833,
+      "lastAccessed": 1776409405377,
       "keyFiles": [
         "news.js",
         "products.js",
@@ -134,7 +134,7 @@
       "path": "app\\lib",
       "purpose": "Library code",
       "fileCount": 3,
-      "lastAccessed": 1776058293834,
+      "lastAccessed": 1776409405377,
       "keyFiles": [
         "auth.ts",
         "supabaseBrowserClient.ts",
@@ -145,22 +145,46 @@
       "path": "app\\pages",
       "purpose": "Page components",
       "fileCount": 0,
-      "lastAccessed": 1776058293834,
+      "lastAccessed": 1776409405378,
       "keyFiles": []
     }
   },
   "hotPaths": [
     {
-      "path": "app\\pages\\Standalone\\page.js",
-      "accessCount": 5,
-      "lastAccessed": 1776071103773,
+      "path": "app\\layout.js",
+      "accessCount": 3,
+      "lastAccessed": 1776409551574,
       "type": "file"
     },
     {
-      "path": "app\\components\\MuinStore\\index.js",
+      "path": "public\\robots.txt",
       "accessCount": 3,
-      "lastAccessed": 1776071100459,
+      "lastAccessed": 1776409557166,
       "type": "file"
+    },
+    {
+      "path": "public\\sitemap.xml",
+      "accessCount": 2,
+      "lastAccessed": 1776409543753,
+      "type": "file"
+    },
+    {
+      "path": "app\\page.js",
+      "accessCount": 2,
+      "lastAccessed": 1776409554205,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 1,
+      "lastAccessed": 1776409471390,
+      "type": "directory"
+    },
+    {
+      "path": "app",
+      "accessCount": 1,
+      "lastAccessed": 1776409557794,
+      "type": "directory"
     }
   ],
   "userDirectives": []
